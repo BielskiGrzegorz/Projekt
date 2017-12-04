@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1512390905 source:d:\grzegorzbielski\fajnagrajol\main.cpp
+	<iostream>
+	"Konto.HPP"
+	<string>
+
+1512390506 d:\grzegorzbielski\fajnagrajol\konto.hpp
+	<iostream>
+	<string>
+	<fstream>
+	<vector>
+
+1512390995 source:d:\grzegorzbielski\fajnagrajol\konto.cpp
+	"Konto.HPP"
+	<sstream>
+
