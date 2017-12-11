@@ -35,6 +35,8 @@
 		</Compiler>
 		<Unit filename="Konto.CPP" />
 		<Unit filename="Konto.HPP" />
+		<Unit filename="Mapa.CPP" />
+		<Unit filename="Mapa.HPP" />
 		<Unit filename="NPC.HPP" />
 		<Unit filename="Postac.HPP" />
 		<Unit filename="Staty.HPP" />
