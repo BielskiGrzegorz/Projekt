@@ -4,10 +4,13 @@
 #include <string>
 #include <fstream>
 #include "Staty.HPP"
-
+/*
 class NPC : public Staty
 {
+    vector <NPC> staty;
+    void wczytNPC(std::string s);
+    NPC();
 
 };
-
+*/
 #endif // NPC_HPP

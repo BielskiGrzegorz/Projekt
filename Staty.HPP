@@ -3,15 +3,15 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
-
-class Staty
+/*
+virtual class Staty
 {
-    std::vector<Staty> staty;
     public:
-    Staty();
-    string imie;
-    double atak, obrona, szybkosc, inteligencja;
-    int zycie, mana, poziom, exp;
+    virtual ~Staty();
+    virtual string imie;
+    virtual double atak, obrona, szybkosc, inteligencja;
+    virtual int zycie, mana, poziom, exp;
 };
-
+*/
 #endif // Staty_HPP
+

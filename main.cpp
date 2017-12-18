@@ -20,13 +20,40 @@ int main()
     Konto Baza;
     Mapa Jan;
     Baza.wczytKont(a);
-    Baza.noweKonto(a);
-    Baza.zapisKont(Baza,a);
+    bool gra;
+
+
     system("cls");
     Jan.wczytajMape(b);
+    char opcja;
+    cout<<"MENU"<<endl;
+    cout<<"1) Zaloguj"<<endl<<"2)Zaloz konto"<<endl<<"3) Wyjdz";
+    cin>>opcja;
+    switch(opcja)
+    {
+    case '1' :
+        {
+            gra=Baza.logowanie();
+
+        }
+        break;
+    case '2' :
+        {
+           Baza.noweKonto(a);
+           Baza.zapisKont(Baza,a);
+        }
+        break;
+    case '3' :
+        {
+            exit(0);
+        }
+        break;
+    }
     int x=1,y=1;
      char c='n';
-    for(;;)
+     if(gra==true)
+     {
+         for(;;)
     {
         Jan.wyswietlMape(1,1);
         switch (c)
@@ -64,12 +91,10 @@ int main()
         cout<<'O';
 
         c=getch();
-
-
-
-
         system("cls");
     }
+
+     }
 
     return 0;
 }

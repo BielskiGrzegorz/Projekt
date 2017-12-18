@@ -16,6 +16,7 @@ class Konto
     void wczytKont(std::string s);
     void zapisKont(Konto& daneKonta, std::string nazwaPliku);
     void noweKonto(std::string nazwaPliku);
+    bool logowanie();
 
 
 

@@ -1,5 +1,6 @@
 #include "Konto.HPP"
 #include<sstream>
+#include <windows.h>
 using namespace std;
 
 Konto::Konto(){};
@@ -66,6 +67,77 @@ void Konto::noweKonto(string nazwaPliku)
     {
         cout<<" Dany Login jest zajety, sprobuj ponownie "<<endl;
         return noweKonto(nazwaPliku);
+    }
+
+}
+bool Konto::logowanie()
+{
+    int dziala=0;
+    int j;
+    string newLogin, newHaslo;
+    cout<<"Podaj login : ";
+    cin>>newLogin;
+    cout<<endl;
+    for(int i=0;i<iloscKont();i++)
+    {
+        if(newLogin==dane[i].login)
+        {
+            dziala++;
+            j=i;
+            break;
+
+        }
+
+    }
+    if(dziala==1)
+    {
+        cout<<"Podaj haslo : ";
+        cin>>newHaslo;
+        cout<<endl;
+        if(newHaslo==dane[j].haslo)
+        {
+            system("cls");
+            return true;
+        }
+        else{
+            cout<<" Dany logowanie sa niepoprawne, chcesz sprobowac jeszcze raz? t/n "<<endl;
+        char takNie;
+        cin>>takNie;
+        switch(takNie)
+        {
+        case 't' :
+            {
+                return logowanie();
+            }
+            break;
+        case 'n' :
+            {
+                system("cls");
+                return false;
+            }
+            default : break;
+        }
+        }
+    }
+    else
+    {
+        cout<<" Dany logowanie sa niepoprawne, chcesz sprobowac jeszcze raz? t/n "<<endl;
+        char takNie;
+        cin>>takNie;
+        switch(takNie)
+        {
+        case 't' :
+            {
+                return logowanie();
+            }
+            break;
+        case 'n' :
+            {
+                system("cls");
+                return false;
+            }
+            default : break;
+        }
     }
 
 }

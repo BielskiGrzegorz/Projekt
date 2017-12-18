@@ -14,17 +14,18 @@
 	"Konto.HPP"
 	<sstream>
 
-1512391240 source:d:\grzegorzbielski\fajnagrajol\projekt\konto.cpp
+1513600381 source:d:\grzegorzbielski\fajnagrajol\projekt\konto.cpp
 	"Konto.HPP"
 	<sstream>
+	<windows.h>
 
-1512390506 d:\grzegorzbielski\fajnagrajol\projekt\konto.hpp
+1513598803 d:\grzegorzbielski\fajnagrajol\projekt\konto.hpp
 	<iostream>
 	<string>
 	<fstream>
 	<vector>
 
-1512994806 source:d:\grzegorzbielski\fajnagrajol\projekt\main.cpp
+1513598846 source:d:\grzegorzbielski\fajnagrajol\projekt\main.cpp
 	<iostream>
 	"Konto.HPP"
 	"Mapa.HPP"
@@ -39,4 +40,18 @@
 
 1512994944 source:d:\grzegorzbielski\fajnagrajol\projekt\mapa.cpp
 	"Mapa.HPP"
+
+1513597534 source:d:\grzegorzbielski\fajnagrajol\projekt\npc.cpp
+	"NPC.HPP"
+
+1513597491 d:\grzegorzbielski\fajnagrajol\projekt\npc.hpp
+	<iostream>
+	<string>
+	<fstream>
+	"Staty.HPP"
+
+1513597432 d:\grzegorzbielski\fajnagrajol\projekt\staty.hpp
+	<iostream>
+	<fstream>
+	<vector>
 
