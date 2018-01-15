@@ -33,13 +33,19 @@
 			<Add option="-std=c++11" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Klasa.hpp" />
 		<Unit filename="Konto.CPP" />
 		<Unit filename="Konto.HPP" />
+		<Unit filename="Lowca.cpp" />
+		<Unit filename="Mag.cpp" />
 		<Unit filename="Mapa.CPP" />
 		<Unit filename="Mapa.HPP" />
+		<Unit filename="NPC.CPP" />
 		<Unit filename="NPC.HPP" />
+		<Unit filename="Palladyn.cpp" />
 		<Unit filename="Postac.HPP" />
 		<Unit filename="Staty.HPP" />
+		<Unit filename="Wojownik.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

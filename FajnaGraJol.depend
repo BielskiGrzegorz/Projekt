@@ -14,7 +14,7 @@
 	"Konto.HPP"
 	<sstream>
 
-1513600381 source:d:\grzegorzbielski\fajnagrajol\projekt\konto.cpp
+1516016906 source:d:\grzegorzbielski\fajnagrajol\projekt\konto.cpp
 	"Konto.HPP"
 	<sstream>
 	<windows.h>
@@ -54,4 +54,22 @@
 	<iostream>
 	<fstream>
 	<vector>
+
+1516017874 source:d:\grzegorzbielski\fajnagrajol\projekt\lowca.cpp
+	"Klasa.hpp"
+
+1516017472 source:d:\grzegorzbielski\fajnagrajol\projekt\mag.cpp
+	"Klasa.hpp"
+
+1516017896 d:\grzegorzbielski\fajnagrajol\projekt\klasa.hpp
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+
+1516017874 source:d:\grzegorzbielski\fajnagrajol\projekt\palladyn.cpp
+	"Klasa.hpp"
+
+1516017874 source:d:\grzegorzbielski\fajnagrajol\projekt\wojownik.cpp
+	"Klasa.hpp"
 
